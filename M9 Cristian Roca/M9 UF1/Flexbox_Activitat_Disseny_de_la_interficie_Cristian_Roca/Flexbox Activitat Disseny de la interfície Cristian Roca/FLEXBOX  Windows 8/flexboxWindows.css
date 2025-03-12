@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #004d00;
+    font-family: Arial, sans-serif;
+}
+
+.start-menu {
+    width: 700px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+}
+
+.mail { 
+    background-color: #0084ff;
+    width: 220px;
+}
+.calendar { 
+    background-color: #7d3cb5; 
+    width: 220px;
+}
+.explorer { 
+    background-color: #0078d7; 
+    width: 100px;
+}
+.store { 
+    background-color: #60b044; 
+    width: 100px;
+}
+.people { 
+    background-color: #ff6d00; 
+    width: 220px;
+}
+.photos { 
+    background-color: #0066b8; 
+    width: 220px;
+}
+.maps { 
+    background-color: #a947f7; 
+    width: 100px;
+}
+.drive { 
+    background-color: #0071bc; 
+    width: 100px;
+}
+.messaging { 
+    background-color: #d35400; 
+    width: 220px;
+}
+.video { 
+    background-color: #e74c3c; 
+    width: 220px;
+}
+.music { 
+    background-color: #e67e22; 
+    width: 210px;
+}
+.desktop { 
+    background-color: #2980b9; 
+    width: 220px;
+}
+.weather { 
+    background-color: #27ae60; 
+    width: 220px;
+}
+.games { 
+    background-color: #27ae60; 
+    width: 100px;
+}
+.camera { 
+    background-color: #c0392b; 
+    width: 100px;
+}
